@@ -1,57 +1,57 @@
 #model_marketplace.config
-{
-  "token_length": "4018",
-  "accuracy": "70",
-  "precision": "fp16",
-  "sampling_frequency:": "44100",
-  "mono": true,
-  "fps": "74",
-  "resolution": "480",
-  "image_width": "1080",
-  "image_height": "1920",
-  "framework": "transformers",
-  "dataset_format": "llm",
-  "dataset_sample": "[id on s3]",
-  "weights": [
-    {
-      "name": "deepseek-ai/DeepSeek-V3",
-      "value": "deepseek-ai/DeepSeek-V3",
-      "size": 260,
-      "paramasters": "12B",
-      "tflops": 24,
-      "vram": 24,
-      "nodes": 1
-    },
-     {
-      "name": "deepseek-ai/DeepSeek-V3-Base",
-      "value": "deepseek-ai/DeepSeek-V3-Base",
-      "size": 260,
-      "paramasters": "12B",
-      "tflops": 24,
-      "vram": 24,
-      "nodes": 1
-    },
-     {
-      "name": "deepseek-ai/DeepSeek-V3-0324",
-      "value": "deepseek-ai/DeepSeek-V3-0324",
-      "size": 260,
-      "paramasters": "12B",
-      "tflops": 24,
-      "vram": 24,
-      "nodes": 1
-    }
-  ],
-  "cuda": "11.4",
-  "task": [
-    "chatbot",
-    "chat",
-    "text-generation",
-    "text-classification",
-    "text-summarization",
-    "text-ner",
-    "question-answering"
-  ]
-}
+# {
+#   "token_length": "4018",
+#   "accuracy": "70",
+#   "precision": "fp16",
+#   "sampling_frequency:": "44100",
+#   "mono": true,
+#   "fps": "74",
+#   "resolution": "480",
+#   "image_width": "1080",
+#   "image_height": "1920",
+#   "framework": "transformers",
+#   "dataset_format": "llm",
+#   "dataset_sample": "[id on s3]",
+#   "weights": [
+#     {
+#       "name": "deepseek-ai/DeepSeek-V3",
+#       "value": "deepseek-ai/DeepSeek-V3",
+#       "size": 300,
+#       "paramasters": "12B",
+#       "tflops": 24,
+#       "vram": 24,
+#       "nodes": 1
+#     },
+#      {
+#       "name": "deepseek-ai/DeepSeek-V3-Base",
+#       "value": "deepseek-ai/DeepSeek-V3-Base",
+#       "size": 260,
+#       "paramasters": "12B",
+#       "tflops": 24,
+#       "vram": 24,
+#       "nodes": 1
+#     },
+#      {
+#       "name": "deepseek-ai/DeepSeek-V3-0324",
+#       "value": "deepseek-ai/DeepSeek-V3-0324",
+#       "size": 260,
+#       "paramasters": "12B",
+#       "tflops": 24,
+#       "vram": 24,
+#       "nodes": 1
+#     }
+#   ],
+#   "cuda": "11.4",
+#   "task": [
+#     "chatbot",
+#     "chat",
+#     "text-generation",
+#     "text-classification",
+#     "text-summarization",
+#     "text-ner",
+#     "question-answering"
+#   ]
+# }
 
 # import math
 # import pathlib
